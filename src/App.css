@@ -1,0 +1,130 @@
+.weatherContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 103px);
+    gap: 20px;
+    max-width: 1200px;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 0;
+}
+
+.weatherHeader {
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(192, 190, 190);
+    padding: 5px 0;
+    text-align: center;
+    width: 1200px;
+}
+
+.weatherCard {
+    width: 250px;
+    padding: 10px;
+    /* height: 240px; */
+    min-height: 200px;
+    border: 1px solid #99CCFF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.weatherCardInfo {
+    justify-content: center;
+    align-items: center;
+    color: #3399FF;
+    opacity: 0.5;
+}
+
+.weatherCardRow {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.weatherCardHeader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.weatherCardImageTemp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.weatherCardDescription {
+    font-size: 14px;
+}
+
+.weatherCardImageWithText {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.weatherCardWindColorRed {
+    color: #FF3300;
+}
+
+.weatherCardFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.weatherFooter {
+    border-top: 1px solid rgb(192, 190, 190);
+    padding: 5px 0;
+    text-align: center;
+    width: 1200px;
+}
+
+.weateherWarmDeadly {
+    color: #990033;
+}
+.weateherWarmVeryHard {
+    color: #cc0000;
+}
+.weateherWarmHard {
+    color: #ff3300;
+}
+.weateherWarmDanger {
+    color: #ff9900;
+}
+.weateherWarmNoraml {
+    color: #ff3300;
+}
+.weateherColdNoraml {
+    color: #2b63a0;
+}
+.weateherColdHard {
+    color: #00ccff;
+}
+.weatherColdVeryHard {
+    color: #0099ff;
+}
+.weatherColdDeadly {
+    color: #0033ff;
+}
+
+span {
+    cursor: default;
+}
+
+p {
+    cursor: default;
+}
